@@ -1,0 +1,96 @@
+@font-face {
+    font-family: font;
+    src: url("assets/font.ttf");
+}
+
+html {
+    color-scheme: light;
+}
+
+body {
+    font-family: font;
+    font-size:  2rem;
+    background-image: url("assets/wallpaper.jpg");
+    background-size: contain;
+    height: 1000em;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 40em;
+}
+
+h1, h2, a {
+    background-color: #ffffff;
+    width: fit-content;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.product, .staff {
+    width: 18em;
+}
+
+.product:hover {
+    animation: anim 3s;
+}
+
+.staff:hover {
+    animation: anim2 3s;
+}
+
+.paki {
+    float: right;
+    animation: anim linear infinite forwards;
+    animation-duration: 500ms;
+}
+
+.slider {
+    float: right;
+}
+
+label {
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes anim {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+@keyframes anim2 {
+
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to{
+        transform: rotateY(360deg);
+    }
+    
+}
+
+body {
+    position: relative;
+}
+
+.link {
+    position: absolute;
+    bottom: 0;
+}
+
