@@ -35,7 +35,8 @@ h1 {
 }
 
 .product, .staff {
-    width: 18em;
+    width: 10em;
+    height: 10em;
 }
 
 .product:hover {
